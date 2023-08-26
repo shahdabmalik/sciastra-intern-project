@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+.team-heading {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(360deg, #234eb0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 40px 20px 0;
+
+}
+
+.heading-text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(360deg, #234eb0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.university-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.university-box {
+    border: 2px solid rgba(35, 77, 176, 0.519);
+    width: 160px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    transition: 200ms linear;
+    padding: 6px;
+}
+
+.university-box:hover {
+    box-shadow: 0px 16px 30px #234db039;
+    transform: translateY(-4px);
+}
+
+.sub-heading {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(360deg, #234eb0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mentors-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.mentors-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-img {
+    width: 140px;
+    border-radius: 100%;
+}
+
+.mentor-details {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.mentor-name {
+    font-size: 18px;
+}
+
+.mentor-university-name {
+    font-size: 12px;
+}
+
+.advisor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.advisor-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #234db055;
+    padding: 40px;
+    width: 330px;
+    border-radius: 32px;
+    box-shadow: 0 50px 50px #00000019;
+    transition: 200ms linear;
+}
+
+.advisor-box:hover {
+    box-shadow: 0 50px 50px #9010b02a;
+
+}
+
+.advisor-img {
+    width: 250px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.advisor-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.advisor-name {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.advisor-post {
+    font-size: 16px;
+}
+
+.founder-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    padding: 25px;
+}
+
+.founder-img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.founder-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.founder-name {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.founder-post {
+    font-size: 16px;
+}
+
+.founder-btn {
+    margin-top: 16px;
+    border: 2px solid #234eb0;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 150ms linear;
+}
+
+.founder-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 10px #00000015;
+}
+
+
+@media (min-width: 450px) {
+    .team-heading {
+        font-size: 36px;
+    }
+
+    .heading-text {
+        font-size: 22px;
+    }
+
+    .university-container {
+        gap: 16px;
+    }
+
+    .university-box {
+        width: 200px;
+        height: 90px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .team-heading {
+        font-size: 50px;
+    }
+
+    .heading-text {
+        font-size: 24px;
+    }
+
+    .mentors-container {
+        gap: 40px;
+    }
+
+    .avatar-img {
+        width: 160px;
+        border-radius: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .university-box {
+        width: 300px;
+        height: 150px;
+        font-size: 24px;
+    }
+}
