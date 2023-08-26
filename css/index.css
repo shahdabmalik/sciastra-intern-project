@@ -53,13 +53,7 @@
     justify-content: center;
     font-size: 16px;
     text-align: center;
-    transition: 200ms linear;
     padding: 6px;
-}
-
-.university-box:hover {
-    box-shadow: 0px 16px 30px #234db039;
-    transform: translateY(-4px);
 }
 
 .sub-heading {
@@ -125,13 +119,8 @@
     width: 330px;
     border-radius: 32px;
     box-shadow: 0 50px 50px #00000019;
-    transition: 200ms linear;
 }
 
-.advisor-box:hover {
-    box-shadow: 0 50px 50px #9010b02a;
-
-}
 
 .advisor-img {
     width: 250px;
